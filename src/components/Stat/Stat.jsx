@@ -7,7 +7,7 @@ import { FaStar } from 'react-icons/fa';
 
 const Stat = () => {
     return (
-        <div className="container mx-auto mt-10 grid grid-cols-5 gap-6">
+        <div className="mt-16 grid grid-cols-5 gap-6">
             {/* first div */}
             <div className='col-span-1 p-2 mt-auto border border-[#02004333] rounded-lg shadow-lg h-[312px] w-[216]'>
                 <div className=" ">
