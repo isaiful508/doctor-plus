@@ -8,7 +8,7 @@ import { FaStar } from 'react-icons/fa';
 const Stat = () => {
     return (
         <div className="mt-16 grid grid-cols-5 gap-6">
-            {/* first div */}
+            {/* first section */}
             <div className='col-span-1 p-2 mt-auto border border-[#02004333] rounded-lg shadow-lg h-[312px] w-[216]'>
                 <div className=" ">
                     <h3 className="text-4xl inter-700">90%</h3>
@@ -18,9 +18,9 @@ const Stat = () => {
                     </div>
                 </div>
             </div>
-            {/* second div */}
+            {/* second section */}
             <div className='col-span-3'>
-                <h2 className='text-5xl inter-700 text-center'>Comprehensive Care  for Every Patient</h2>
+                <h2 className='text-5xl inter-700 text-center font-semibold'>Comprehensive Care  for Every Patient</h2>
                 <div className='grid grid-cols-3 gap-6'>
 
                     <div className="bg-[#fffff5] h-[200px] w-[216] p-2 rounded-lg shadow-lg border border-[#02004333] mt-auto">
@@ -57,7 +57,7 @@ const Stat = () => {
                     </div>
                 </div>
             </div>
-            {/* third div */}
+            {/* third section */}
             <div className='col-span-1 mt-auto  border border-[#02004333] p-4 rounded-lg shadow-lg h-[312px] w-[216]'>
                 <div className="">
                     <h3 className="text-4xl inter-700">50+</h3>
