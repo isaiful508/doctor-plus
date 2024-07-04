@@ -7,55 +7,69 @@ import { FaStar } from 'react-icons/fa';
 
 const Stat = () => {
     return (
-        <div className="mt-16 w-full grid lg:grid-cols-5 gap-6">
-        <h2 className='lg:text-5xl text-3xl inter-700 text-center font-semibold lg:hidden'>Comprehensive Care for Every Patient</h2>
-        {/* First section */}
-        <div className='col-span-1 p-4 border border-[#02004333] rounded-lg shadow-lg flex flex-col items-center'>
-            <h3 className="text-4xl inter-700">90%</h3>
-            <p className="mt-1 inter-500 text-center">Patient satisfaction rate, reflecting our commitment.</p>
-            <div className="mt-4">
-                <img src={pie} alt="Pie Chart" />
-            </div>
-        </div>
-        {/* Second section */}
-        <div className='lg:col-span-3'>
-            <h2 className='lg:text-5xl text-3xl inter-700 text-center font-semibold lg:flex hidden'>Comprehensive Care for Every Patient</h2>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6 lg:mt-0'>
-                <div className="bg-[#fffff5] p-4 rounded-lg shadow-lg border border-[#02004333] flex flex-col items-center">
-                    <h3 className="text-4xl inter-700">500+</h3>
-                    <p className="mt-2 inter-500 text-center">Board-certified doctors</p>
-                    <div className="mt-4">
-                        <img src={badge} alt="Badge" />
-                    </div>
-                </div>
-                <div className="bg-[#fbfbfb] p-4 rounded-lg shadow-lg border border-[#02004333] flex flex-col items-center">
-                    <div className='flex items-center'>
-                        <h3 className="text-4xl inter-700">4.8</h3>
-                        <FaStar className='text-yellow-400 text-4xl ml-2' />
-                    </div>
-                    <p className="mt-2 inter-500 text-center">Over 20,000 Patient</p>
-                    <div className="mt-4">
-                        <img src={groupPics} alt="Group Pictures" />
-                    </div>
-                </div>
-                <div className="bg-[#fffff5] p-4 rounded-lg shadow-lg border border-[#02004333] flex flex-col items-center">
-                    <h3 className="text-4xl inter-700">$5000</h3>
-                    <p className="mt-2 inter-500 text-center">Money spent for poor patients</p>
-                    <div className="mt-4">
-                        <img src={round} alt="Round" />
+        <div className="mt-16 w-[580px] lg:w-full grid lg:grid-cols-5 gap-6">
+            <h2 className='lg:text-5xl text-3xl inter-700 text-center font-semibold lg:hidden'>Comprehensive Care  for Every Patient</h2>
+            {/* first section */}
+            <div className='col-span-1 p-2 mt-auto border border-[#02004333] rounded-lg shadow-lg lg:h-[312px] lg:w-[216px]'>
+                <div className=" ">
+                    <h3 className="text-4xl inter-700">90%</h3>
+                    <p className="mt-1 inter-500">Patient satisfaction rate, reflecting our commitment.</p>
+                    <div className="flex justify-center mt-4">
+                        <img src={pie} alt="" />
                     </div>
                 </div>
             </div>
-        </div>
-        {/* Third section */}
-        <div className='col-span-1 p-4 border border-[#02004333] rounded-lg shadow-lg flex flex-col items-center'>
-            <h3 className="text-4xl inter-700">50+</h3>
-            <p className="mt-2 inter-500 text-center">Free lesson video for patients</p>
-            <div className="mt-4">
-                <img src={camera} alt="Camera" />
+            {/* second section */}
+            <div className='lg:col-span-3'>
+                <h2 className='lg:text-5xl text-3xl inter-700 text-center font-semibold lg:flex hidden'>Comprehensive Care  for Every Patient</h2>
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>
+
+                    <div className="bg-[#fffff5] h-[200px] w-[216] p-2 rounded-lg shadow-lg border border-[#02004333] mt-auto">
+                        <h3 className="text-4xl inter-700">500+</h3>
+                        <p className="mt-2 inter-500">Board-certified doctors</p>
+                        <div className="flex justify-center">
+                            <img src={badge} alt="" />
+                        </div>
+                    </div>
+
+                    <div className="bg-[#fbfbfb] p-2 rounded-lg shadow-lg h-[162px] w-[216] border border-[#02004333] mt-auto">
+
+                        <div className='flex'>
+                            <h3 className="text-4xl inter-700">4.8
+
+                            </h3>
+                            <FaStar className='text-yellow-400 text-4xl' />
+                        </div>
+                        <p className="mt-2 inter-500">Over 20,000 Patient</p>
+
+                        <div className="mt-2">
+                            <img src={groupPics} alt="" />
+
+                        </div>
+                    </div>
+
+                    <div className="bg-[#fffff5] h-[200px] w-[216] p-2 rounded-lg shadow-lg border border-[#02004333]">
+                        <h3 className="text-4xl inter-700">$5000</h3>
+                        <p className=" text-gray-600 mt-2 inter-500">Money spend
+                        for poor patient</p>
+                        <div className="flex items-start justify-end">
+                            <img src={round} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* third section */}
+            <div className='col-span-1 mt-auto  border border-[#02004333] p-4 rounded-lg shadow-lg h-[312px] w-[216]'>
+                <div className="">
+                    <h3 className="text-4xl inter-700">50+</h3>
+                    <p className="mt-2">Free lession video 
+                    for patient</p>
+                    <div className="flex justify-center mt-2">
+                        <img src={camera} alt="" />
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
     );
 };
 
