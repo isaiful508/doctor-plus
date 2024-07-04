@@ -6,7 +6,7 @@ import img3 from '../../assets/Rectangle 27.png'
 
 const DoctorsServices = () => {
     return (
-        <div className="mt-32 bg-[#fffff5] grid grid-cols-1 lg:grid-cols-2 gap-12 rounded-lg p-4">
+        <div className="mt-32 w-[580px] lg:w-full bg-[#fffff5] grid grid-cols-1 lg:grid-cols-2 gap-12 rounded-lg p-4">
             {/* health part */}
             <div>
                 <button className="px-4 py-2 inter-500 bg-white border border-[#4d4c7b] rounded-full shadow-md">

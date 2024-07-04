@@ -4,13 +4,13 @@ import logo from '../../assets/logo dark.png'
 const Navbar = () => {
 
     return (
-        <div className="navbar bg-base-100 mt-8">
+        <div className="navbar  mt-8">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
+                            className="h-8 w-8"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -40,7 +40,7 @@ const Navbar = () => {
                     <li>About us</li>
                 </ul>
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end flex justify-end">
                 <a className="btn inter-500 border border-[#020043] bg-white">Appointment <FiArrowUpRight /></a>
             </div>
         </div>

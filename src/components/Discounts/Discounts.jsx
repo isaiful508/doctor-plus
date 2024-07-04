@@ -4,8 +4,8 @@ import logo from '../../assets/logo light.png'
 
 const Discounts = () => {
     return (
-       <div className="mt-20 mb-20">
-         <div className="relative  h-[477px]  w-full bg-no-repeat bg-cover bg-center rounded-3xl overflow-hidden ">
+       <div className="mt-20 mb-20  md:w-[850px] lg:w-full">
+         <div className="relative h-[300px] lg:h-[477px] w-[580px] lg:w-full bg-no-repeat bg-cover bg-center rounded-3xl overflow-hidden ">
         <img src={bannerImg} className="h-full w-full" alt="" />
         <div className="bg-gradient-to-r from-indigo-950 overflow-hidden z-30 absolute top-0 left-0 h-full w-full opacity-95 flex items-center p-14">
           <div className="flex flex-col gap-5">

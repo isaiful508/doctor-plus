@@ -3,7 +3,7 @@ import doctors from '../../assets/Rectangle 24.png'
 
 const MIssionSection = () => {
     return (
-        <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div className="mt-20 w-[580px] lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-5">
             <div>
                 <button className="px-4 py-2 inter-500 bg-[#fffff5] border border-[#4d4c7b] rounded-full shadow-md">
                     Who we are
@@ -18,7 +18,7 @@ const MIssionSection = () => {
             <div className="relative">
                 <img className="w-full h-full" src={doctors} alt="" />
 
-                <div className="bg-[#343268] w-[400px] h-[210px] px-4 py-6 rounded-xl absolute -bottom-8 -left-20">
+                <div className="bg-[#343268] w-[400px] lg:h-[210px] px-4 py-6 rounded-xl absolute -bottom-8 lg:-left-20">
                 <h3 className="text-white text-2xl inter-500">Our mission is simple</h3>
                 <p className="text-[#FFFFFFCC] mt-4 inter-400">To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
                 </div>

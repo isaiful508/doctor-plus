@@ -2,7 +2,7 @@
 
 const Questions = () => {
     return (
-        <div className="mt-20">
+        <div className="mt-20 w-[580px] lg:w-full">
             <button className="px-4 py-2 inter-500 bg-white border border-[#4d4c7b] rounded-full shadow-md">
                 Faq
             </button>
